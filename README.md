@@ -1,63 +1,63 @@
 # Hello World
 
-## アートワークについて
+## About the Artwork
 
-「Hello World」は、ウェブカメラであなたの姿をリアルタイムで捉え、ピクセルアートのようなエッジ検出処理を施すインタラクティブなデジタルアート作品です。
+"Hello World" is an interactive digital art piece that captures your image in real-time via webcam and applies edge detection processing similar to pixel art.
 
-プログラミングの入り口である「Hello World」をコンセプトに、デジタル世界と現実の境界を視覚的に探求します。
+Using the programming entry point "Hello World" as a concept, this work visually explores the boundary between the digital world and reality.
 
-### 視覚表現
+### Visual Expression
 
-ウェブカメラに映った姿は、エッジ検出アルゴリズムによって輪郭線のみが抽出され、ピクセル化されます。これによって生まれる抽象的な表現は、デジタル空間における私たちの存在を新たな視点で見せてくれます。
+Your image captured by the webcam has only its contours extracted by an edge detection algorithm and is pixelated. This abstract representation offers a new perspective on our existence in digital space.
 
-- モノクロームの背景に、カラーの線でデジタルな「あなた」が現れる
-- ピクセルグリッドによって区切られた空間内での動きを観察できる
-- エッジ検出の強さを変えることで、現実との距離感を調整できる
+- A digital "you" appears with colored lines against a monochrome background
+- You can observe movements within a space divided by a pixel grid
+- You can adjust your sense of distance from reality by changing the edge detection strength
 
-### インタラクション
+### Interaction
 
-このアートワークでは、以下の要素を自由に調整して体験をカスタマイズできます：
+In this artwork, you can customize your experience by freely adjusting the following elements:
 
-- **ピクセルサイズ**: 大きくすると抽象度が増し、小さくするとより細部が見えるように
-- **エッジ検出の閾値**: 輪郭線の検出感度を調整
-- **ぼかし効果**: 画像の滑らかさと粒度のバランスを変更
-- **線の色**: 自分らしい色を選んで表現を個性化
+- **Pixel Size**: Increase for more abstraction, decrease to see more details
+- **Edge Detection Threshold**: Adjust the sensitivity of contour detection
+- **Blur Effect**: Change the balance between image smoothness and granularity
+- **Line Color**: Choose your own color to personalize the expression
 
-また、気に入った瞬間を「キャプチャ」して保存することも可能です。
+You can also "capture" and save moments you like.
 
-### 技術について
+### About the Technology
 
-この作品は以下の技術要素を用いて実装されています：
+This work is implemented using the following technical elements:
 
-- **映像処理**: ソーベルフィルタによるエッジ検出とガウシアンブラーによる前処理
-- **フレームワーク**: Next.jsとReactを用いた現代的なWeb技術
-- **アニメーション**: Framer Motionによる滑らかな動きと遷移
+- **Video Processing**: Edge detection using Sobel filter and preprocessing with Gaussian blur
+- **Framework**: Modern web technologies using Next.js and React
+- **Animation**: Smooth movements and transitions with Framer Motion
 
-## 体験方法
+## How to Experience
 
-1. リポジトリのクローン
+1. Clone the repository
 ```bash
-git clone [リポジトリURL]
+git clone [Repository URL]
 cd hello-world
 ```
 
-2. 依存関係のインストール
+2. Install dependencies
 ```bash
 pnpm install
 ```
 
-3. 開発サーバーの起動
+3. Start the development server
 ```bash
 pnpm dev
 ```
 
-4. ブラウザで`http://localhost:3000`を開き、カメラへのアクセスを許可
+4. Open `http://localhost:3000` in your browser and allow camera access
 
-5. 各種コントロールを使って体験をカスタマイズ
-   - スライダーでパラメータを調整
-   - カラーピッカーで線の色を変更
-   - キャプチャボタンで瞬間を保存
+5. Customize your experience using various controls
+   - Adjust parameters with sliders
+   - Change line color with color picker
+   - Save moments with the capture button
 
-## ライセンス
+## License
 
-このプロジェクトはMITライセンスの下で公開されています。自由に利用、改変、再配布していただけます。 
+This project is released under the MIT License. You are free to use, modify, and redistribute it. 
